@@ -14,6 +14,7 @@
 
 * 需Python 3.10(含)以尚版本
 * 建議創建並使用虛擬環境(venv)
+* 需事先至模型平台申請API Key，並修改model_client的內容
 
 ### 安裝套件
 
@@ -33,7 +34,7 @@ OPENAI_API_KEY=<your api key>
 
 ## 執行說明
 
-進入cmd，並切換至對應專案目錄，並輸入以下指令。
+進入terminal，並切換至對應專案目錄，並輸入以下指令。
 ```
 python src/main.py
 ```
